@@ -6,6 +6,6 @@ def oxford_comma(array)
     elsif array.length >= 3
     array.join(", ")
     last_item = array.last
-    array.push("and #{last_item}"")
+    array.push("and #{last_item}")
   end
 end
